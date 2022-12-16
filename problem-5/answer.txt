@@ -1,0 +1,24 @@
+diagram i made is shown in css-box-model-diagram.png
+
+The CSS box model consists of four elements:
+    Margin
+    Border
+    Padding
+    Content
+
+Margin: here the margin around the element is defined. so if this is set to 50px that means all around the elemnt there will be a 50px gap.
+
+Border: this is the section that goes encapsulates the element. so if this is set to 1px solid black, that menas there will be a 1px black bar going around the outside of the element.
+
+Padding: this defines the space inside the element around the contant. so if the right padding gets set to 25%. that means the content inside the element will be 25% of the element width from the right side.
+
+Content: this is what is inside the element for example text.
+
+Example:
+    .container{
+        margin-top: 50px; //50 pixel gap above the element
+        margin-bottom: 20px; //20 pixel gap under the element
+        border: 2px solid black; //a 2 pixel black border around the element
+        padding: 10px; //this gives a 10px space around the content
+        color: green; //this sets the font to green
+    }
