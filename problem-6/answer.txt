@@ -1,0 +1,10 @@
+Detail how the browser loads and bootstraps a rich web application from an initial URL.
+
+When a url gets entered this is the process of how it loads and bootstraps a rice web application
+
+first the browser sends a request to the server asking for the source of the URL.
+once the servers answers the browser will recieve the contents of the webiste (html,css,js, etc).
+the browsers starts by parsing the html and calling all the images and css stylesheets used.
+the browser then sends request to the server for each external resource used.
+Once this is done the browser contrusts a tree like layout for the html this is call the DOM (Document Object Model).
+The applications is bootstrapped once the DOM is done and all the js is executed
