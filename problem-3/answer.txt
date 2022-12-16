@@ -1,0 +1,16 @@
+In functional programming, what does the term functor mean? 
+
+    The term functor reffers to an object that can be changed to something else in a way that changes the whole object to a value of the same type.
+    For example taking a list and incrementing every element.
+
+Can you give an example in JavaScript?
+
+    let entries = [2,5,10]
+
+    const increment = entries.map((entries) => entries++);
+
+    alert(entries)
+
+    here we take in a list of 3 numbers 2,5,10 and increment each with the map() function.
+    the output will be 3,6,11
+
