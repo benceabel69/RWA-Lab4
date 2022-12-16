@@ -1,0 +1,11 @@
+Callbacks:
+    Advantage: Callbacks are simple and easy to understand
+    Disadvantage: the code can become very nested and it will then be hard to understand whats going on
+
+Promises:
+    Advantage: promises can avoid the code becoming too nested and hard to understand as it provides promuses that can be resolved later
+    Disadvantage: more complex than a callback
+
+Streams:
+    Advantage: it processes the data in smaller chuncks as opposed to the whole data set meaning it will be faster and more efficient
+    Disadvantage: this is the most complex method
