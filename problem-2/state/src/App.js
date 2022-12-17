@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 
 function Counter() {
-  const [count, setCount] = useState(0);
+  const [counter, setCount] = useState(0);
 
-  const add = () => {
-    setCount(count + 1);
+  const add = () => { //when called it increments the counter by one
+    setCount(counter + 1);
   };
 
-  const divStyle = {
+  const divStyle = { //div styling
     width: "50vw",
     height: "50vh",
     backgroundColor: "lightgreen",
@@ -19,7 +19,7 @@ function Counter() {
     flexDirection: "column",
     overflow: "scroll"
   }
-  const buttonStyle = {
+  const buttonStyle = { //button styling
     backgroundColor: "orange",
     borderRadius: "5px",
     border: "none",
@@ -28,9 +28,9 @@ function Counter() {
     marginTop: "10px",
   }
 
-  return (
+  return ( // here the counter gets displayed in a p tag and on the button click the add function gets called
     <div style={divStyle}>
-      <p>Count: {count}</p>
+      <p>Count: {counter}</p>
       <button style={buttonStyle} onClick={add}>+</button>
     </div>
   );
